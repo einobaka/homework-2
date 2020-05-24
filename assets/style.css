@@ -10,3 +10,9 @@ body {
     background-position: center;
     background-size: cover;
 };
+
+.col {
+    border-style: solid;
+    border: thin;
+    padding: 5px;
+}
