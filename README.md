@@ -11,18 +11,18 @@ Updated for HW 07
 SS of index page
 ```
 
-![Image of Main page](https://github.com/einobaka/homework-2/blob/master/images/index.png)
+![Image of Main page](./assets/images/index.png)
 
 ```
 SS of contact page
 ```
 
-![Image of Contact page](https://github.com/einobaka/homework-2/blob/master/images/contact.png)
+![Image of Contact page](./assets/images/contact.png)
 
 ```
 SS of portfolio page
 ```
-![Image of Portfolio page](https://github.com/einobaka/homework-2/blob/master/images/portfolio.png)
+![Image of Portfolio page](./assets/images/portfolio.png)
 
 ## APIs used
 
