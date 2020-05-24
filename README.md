@@ -1,7 +1,7 @@
 # homework-2
 CSS homework for week 2
 
-link to HW https://einobaka.github.io/homework-2/
+link to HW https://einobaka.github.io/homework-2/index.html
 
 CSS elements used - bootstrap 
 

@@ -4,90 +4,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hello!_IT's_GENE'S | portfolio</title>
+    <title>Gene Torres | Home</title>
 
     <!-- BOOTSTRAP CSS LINK -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-    <link rel="icon" href="./images/letterG.ico">
-
-    <link rel="stylesheet" href="./mainStyle.css">
-
+    <link rel="icon" href="./assets/images/letterG.ico">
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
 
     <!-- NAVIGATION HEADER -->
+
     <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <ul class="navbar-nav navbar-brand">
-                <li>hello!</li>
-                <li class="text-primary">_IT'S_GENE</li>
+                <li>
+                    <h1>Gene Torres</h1>
+                </li>
             </ul>
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item ">
-                    <a class="nav-link" href="./index.html">ABOUT</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html" id="about">ABOUT</a>
                 </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="./contact.html">CONTACT</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html" id="contact">CONTACT</a>
                 </li>
-                <li class="nav-item ">
-                    <a class="nav-link active text-primary" href="./portfolio.html">PORTFOLIO</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="./portfolio.html" id="portfolio">PORTFOLIO</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-
     <!-- CONTENT SECTION -->
     <section class="container">
 
         <!-- ROW HEADER -->
-        <div class="row text-primary justify-content-center p-3">
-            <h2>PORTFOLIO</h2>
+        <div class="row justify-content-center p-3">
+            <h2>Portfolio</h2>
         </div>
+        <br>
+        <div class="text-center">
+            <h4>Check out my work on: <a href="https://github.com/einobaka">GitHub</a></h4>
 
+        </div>
+        <br>
         <!-- PORTFOLIO PLACE HOLDERS -->
         <div class="row justify-content-center">
+
             <div class="col-6 col-md-4 text-center">
-                <img src="https://via.placeholder.com/150" alt="placeholder">
+                <a href="https://github.com/einobaka/hw-06-api-weather-gt"><img src="./assets/images/weatherapp.png"
+                        alt="weather project repo"></a>
                 <p>
-                    PROJECT 1
+                    <br>
+                    Weather Dashboard Repository - Project 06
                 </p>
             </div>
             <div class="col-6 col-md-4 text-center">
-                <img src="https://via.placeholder.com/150"alt="placeholder">
+                <a href="https://github.com/einobaka/hw05-jquery-calendar-gt"><img src="./assets/images/workday.png"
+                        alt="jquery project repo"></a>
                 <p>
-                    PROJECT 2
-                </p>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-6 col-md-4 text-center">
-                <img src="https://via.placeholder.com/150" alt="placeholder">
-                <p>
-                    PROJECT 3
-                </p>
-            </div>
-            <div class="col-6 col-md-4 text-center">
-                <img src="https://via.placeholder.com/150" alt="placeholder">
-                <p>
-                    PROJECT 4
-                </p>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-6 col-md-4 text-center">
-                <img src="https://via.placeholder.com/150" alt="placeholder">
-                <p>
-                    PROJECT 5
-                </p>
-            </div>
-            <div class="col-6 col-md-4 text-center">
-                <img src="https://via.placeholder.com/150" alt="placeholder">
-                <p>
-                    PROJECT 1
+                    <br>
+                    JQuery Calendar Repository - Project 05
                 </p>
             </div>
         </div>
@@ -96,15 +78,16 @@
 </body>
 
 <!-- FOOTER -->
-<footer class="footer fixed-bottom bg-light text-center p-2">
+<footer class="footer fixed-bottom text-center p-2">
     &copy; 2020 COPYRIGHT. GENE TORRES
     <a href="https://www.instagram.com">
-        <img src="./images/fb-black.png" class="img-fluid" alt="facebook link icon"></a>
+        <img src="./assets/images/fb-black.png" class="img-fluid" alt="facebook link icon"></a>
     <a href="https://www.instagram.com">
-        <img src="./images/insta-black.png" class="img-fluid" alt="instagram link icon"></a>
+        <img src="./assets/images/insta-black.png" class="img-fluid" alt="instagram link icon"></a>
 </footer>
 
-<!-- BOOTSTRAP SCRIPT CODE -->
+<!-- SCRIPT CODE -->
+<script src="./script/script.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>

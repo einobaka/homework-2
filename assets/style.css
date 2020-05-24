@@ -16,3 +16,9 @@ body {
     border: thin;
     padding: 5px;
 }
+
+.footer {
+    z-index: -2;
+}
+
+
