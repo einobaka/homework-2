@@ -1,11 +1,24 @@
-# einobaka - Gene Torres - Portfolio
+# Gene Torres - Portfolio
+
+## Descrption 
+
+This is my porfolio, I'm a full-stack web developer student at UofA.
+
+## Table of Contents
+
+* [Usage](#usage)
+
+* [Contributing](#contributing)
+
+* [Questions](#questions)
+
+## Installation 
 
 ```
-Updated for HW 07
+npm install
 ```
-[Portfolio Page (link)](https://einobaka.github.io/homework-2/index.html)
 
-## Screenshots
+## Usage
 
 ```
 SS of index page
@@ -24,7 +37,18 @@ SS of portfolio page
 ```
 ![Image of Portfolio page](./assets/images/portfolio.png)
 
-## APIs used
+---
+
+## Contributing
+
+Default: Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.
 
 [jQuery](https://learn.jquery.com/) |
 [BootStrap](https://www.getbootstrap.com) |
+
+## Questions
+
+For more information please find the repository [here](https://github.com/einobaka/).
+
+For additional quesions please contact me at: einobaka@gmail.com
+
